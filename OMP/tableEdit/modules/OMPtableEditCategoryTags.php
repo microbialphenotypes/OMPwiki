@@ -59,7 +59,7 @@ class OMPtableEditCategoryTags extends TableEditCategoryTags{
 			$name = trim($name, '[]');
 			if($type == 'parent'){
 				$t = Title::newFromText($name);
-				if($t->isKnown()){
+				if(!is_null($t) && $t->isKnown()){
 					$tagarr[] = "[[Category:$name derivatives]]";
 					# check genotype of parent vs new strain
 					$parentPage = new WikiPageTE($t);

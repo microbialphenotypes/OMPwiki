@@ -8,11 +8,12 @@
     "strainnewpage": "Create a New Strain Page",
     "strainnewpage-desc": "Strain page creation for the Ontology for Microbial Phenotypes project",
     "strainnewpage-summary": "Special Page to create new strains in the OMP database",
-    "strainnewpage-help-name":"Be sure to include the species in the name. Do not manually add an OMP_ST accession; that will be added automatically<br>",
-    "strainnewpage-help-parent": "If you are creating a page for a strain that is a derivative of a strain already in OMPwiki, you can enter the page name for the parent strain, and the genotype of the parent strain will be automatically entered on the new page. The parent name should be in the format: <blockquote>OMP ST:xxx ! Bacillus aggie 12.</blockquote> NOTE:Once the new page is made be sure to edit the genotype field to add or remove any mutations that are not in the parent genotype.<br>",
-    "strainnewpage-help-synonyms":"Alternate names for the strain<br>",
-    "strainnewpage-help-reference":"Use PubMed PMIDs or other stable accessions<br>",
-    "strainnewpage-help-availability":"The format should be similar to: Coli Genetics Stock Center [[link]]<br>",
+    "strainnewpage-help-name":"Be sure to include the species in the name. Do not manually add an OMP_ST accession; that will be added automatically<br><br>",
+    "strainnewpage-help-parent": "If you are creating a page for a strain that is a derivative of a strain already in OMPwiki, you can enter the page name for the parent strain, and the genotype of the parent strain will be automatically entered on the new page. The parent name should be in the format: <blockquote>OMP ST:xxx ! Bacillus aggie 12.</blockquote> NOTE:Once the new page is made be sure to edit the genotype field to add or remove any mutations that are not in the parent genotype.<br><br>",
+    "strainnewpage-help-synonyms":"Alternate names for the strain<br><br>",
+    "strainnewpage-help-reference":"Use PubMed PMIDs or other stable accessions<br><br>",
+    "strainnewpage-help-availability":"The format should be similar to: Coli Genetics Stock Center [http://cgsc.biology.yale.edu]<br>",
+    "login-help-login":"Please login first.",
     "strainnewpage-dummy": "placeholder for the last JSON"
 }
 

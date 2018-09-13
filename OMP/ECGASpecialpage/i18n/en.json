@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Sandy LaBonte"
+        ]
+    },
+    "ecga": "E. coli-to-Cancer Gene-function Atlas",
+    "ECGA-desc": "This is a tutorial special page",
+    "ECGA-summary": "Example Special page",
+    "ecga-embargo": "Access to this data browser is restricted to logged in users until the papers are published. Please [{{fullurl:Special:UserLogin|returnto={{FULLPAGENAME}}}} Log in] if you have access."
+}

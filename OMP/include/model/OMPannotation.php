@@ -41,7 +41,7 @@ class OMPannotation extends OMPmodel{
 		# overwrite from table data
 		$annotation->accession = $rowHash['annotation_id'];
 		$annotation->ompId = $rowHash['omp_id'];
-		$annotation->not = $rowHash['not'];
+		if(isset($rowHash['not'])) $annotation->not = $rowHash['not'];
 		$annotation->reference = $rowHash['reference'];
 		$annotation->eco_id = $rowHash['eco_id'];
 		$annotation->env_condition = $rowHash['condition'];

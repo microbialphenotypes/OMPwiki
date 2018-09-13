@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Jane Doe"
+        ]
+    },
+    "MySpecialpageName": "Special Page Title",
+    "MySpecialpageName-desc": "This is a tutorial special page",
+    "MySpecialpageName-summary": "Example Special page"
+}
