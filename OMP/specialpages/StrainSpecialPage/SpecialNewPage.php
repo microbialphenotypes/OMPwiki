@@ -79,9 +79,9 @@ class SpecialNewPage extends SpecialPage {
 			$htmlForm->setSubmitCallback( array( 'SpecialNewPage', 'processInput' ) );  
 			$htmlForm->show(); # Displaying the form
 		} else{
-			#if the user id not logged on then it will redirect to a page that gives a permission error 
-			header("Location: http://microbialphenotypes.org/wiki/index.php?action=edit&preload=Template%3AEmpty_Page&editintro=Mediawiki%3A&summary=&nosummary=&prefix=&minor=&title=test_2016-06-24&create=Create");
-			exit;
+			#if the user id not logged on then show a permission error 
+			$output = $this->getOutput();
+			$output->showErrorPage( 'error', 'exception-nologin-text' );
 		}
 	}
 	
